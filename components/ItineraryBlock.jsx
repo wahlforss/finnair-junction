@@ -26,7 +26,7 @@ class Itinerary extends React.Component {
                 <div className='itinerary-block-title'>{this.props.title}</div>
                 <div className='itinerary-block-review'>{this.props.review}</div>
                 <div className='itinerary-block-price'>{this.props.price}</div>
-                <div className='button' onClick={this.changeBlock.bind(this)}>Want something else?</div>
+                {/* <div className='button' onClick={this.changeBlock.bind(this)}>Want something else?</div> */}
               </div>
       )
     }

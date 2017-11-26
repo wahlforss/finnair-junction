@@ -109,3 +109,19 @@ ul {
   height: 85vh;
   overflow-y: scroll;
 }
+
+.budget-column {
+  font-size: 1.5em;
+  margin-top: 54px;
+}
+.budget-column li {
+  margin-bottom: 20px;
+}
+.budget-total {
+  border-top:1px solid white;
+  padding-top: 20px;
+}
+
+.budget-column .button {
+  margin-bottom: 20px;
+}

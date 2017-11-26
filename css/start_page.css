@@ -26,6 +26,13 @@ h1 {
   margin: 0;
 }
 
+.logo {
+  background-image: url('https://files.slack.com/files-pri/T7KKUH9PT-F85FR2R2N/fackinglogo.png');
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 .start-page-bottom {
   position: absolute;
   bottom: 50px;

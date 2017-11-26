@@ -45,11 +45,32 @@ class StartPage extends React.Component {
     this.setState({
       fetching: true
     })
-    axios.get('http://95.213.236.79:5000/findair?get_venues=2017-12-04:2017-12-05:500:alfredwahl').then((dataFromVlad) => {
+
+    //temp1.getFullYear() year
+    //temp1.getMonth() month
+    // temp1.getDate()
+
+    // let startdateyear = this.state.startDate.getFullYear()
+    // let startdateMonth = this.state.startDate.getMonth()
+    // let startdateDay = this.state.startDate.getDate()
+    //
+    // if (startdateDay < 10) {
+    //   startdateDay = '0'+startdateDay
+    // }
+    // console.log(typeof(this.state.startDate));
+    // let enddateyear = this.state.endDate.getFullYear()
+    // let enddateMonth = this.state.endDate.getMonth()
+    // let enddateDay = this.state.endDate.getDate()
+    //
+    // if (enddateDay < 10) {
+    //   enddateDay = '0'+enddateDay
+    // }
+
+    axios.get(`http://95.213.236.79:5000/findair?get_venues=2017-12-04:2017-12-05:${this.state.firstSlider}:${this.state.instagramName}`).then((dataFromVlad) => {
       let newObject = {
         dataFromStartPage: dataFromVlad
       }
-      
+
       this.props.history.push('/showme', {dataFromStartPage: dataFromVlad.data})
 
     })
@@ -114,6 +135,7 @@ class StartPage extends React.Component {
             return (
               <div className='start-page-wrapper'>
                 <div className='start-page-wrapper-hoho'>
+                  <div className='logo'></div>
                   <h1>FindAir</h1>
                   <h2>One Click Journey</h2>
                   {this.renderDatePicker()}

@@ -41,7 +41,7 @@ class CustomizePage extends React.Component {
   }
 
   checkBox(id) {
-    let newArrayFromTotalActivities = this.state.totalActivities.slice()
+    let newArrayFromTotalActivities = this.state.shownData.slice()
     const boxToBeCheckedIndex = _.findIndex(newArrayFromTotalActivities, (actObj) => {
       return actObj.id === id
     })
@@ -49,7 +49,7 @@ class CustomizePage extends React.Component {
     boxToBeCheckedObject['checked'] = !boxToBeCheckedObject.checked
     newArrayFromTotalActivities.unshift(boxToBeCheckedObject)
     this.setState({
-      totalActivities: newArrayFromTotalActivities
+      data: newArrayFromTotalActivities
     })
   }
 
@@ -104,6 +104,7 @@ class CustomizePage extends React.Component {
           return (
             <li>
               <CustomizeBlock
+                id={actObj.id}
                 title={actObj.name}
                 price={actObj.price}
                 checked={true}
@@ -129,9 +130,10 @@ class CustomizePage extends React.Component {
             return (
               <li>
                 <CustomizeBlock
+                  id={actObj.id}
                   title={actObj.name}
                   price={actObj.price}
-                  checked={true}
+                  checked={false}
                   backgroundImage={actObj.image}
                   checkBox={this.checkBox.bind(this)}
                 />
@@ -165,11 +167,12 @@ class CustomizePage extends React.Component {
              </div>
              <div className='custom-column'>
                <h2>Budget</h2>
-               <div>
-                 <div>Flight cost {this.state.flightCost}</div>
-                 <div>Restaurants {this.state.budgetRestaurant}</div>
-                 <div>Activities {this.state.budgetActivities}</div>
-                 <div>Total Cost {this.state.budgetTotal}</div>
+               <div className='budget-column'>
+                 <ul>
+                   <li>Flights cost {this.state.flightCost} €</li>
+                   <li>Activities {this.state.budgetActivities} €</li>
+                   <li className='budget-total'>Total Cost {this.state.budgetTotal} €</li>
+                 </ul>
                  <Link to={'/bookit'}><div className='button'>Book Now</div></Link>
                  <Link to={'/showme'}><div className='button'>Go back</div></Link>
                </div>
