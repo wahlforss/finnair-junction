@@ -18,11 +18,14 @@ class BookingsPage extends React.Component {
   }
 
   render() {
+    if (this.props.location) {
+
+
     return (
       <div className='booking-page-wrapper'>
         <div>
-          <h1>LET'S FLY TO MOSCOW</h1>
-          <h2>24 - 26 December</h2>
+          <h1>LET'S FLY TO {this.props.location.state.data.city}</h1>
+
           <div>
             <div className='booking-page-list'>
               <ul className='booking-page-fun-list'>
@@ -32,22 +35,30 @@ class BookingsPage extends React.Component {
               </ul>
               <ul className='booking-page-costs-list'>
                 <li>
-                  Flights 100 €
+                  Flights {this.props.location.state.flightCost} €
                 </li>
-                <li>Hotel 50 €</li>
-                <li>Activities: 70 €</li>
+                <li>Hotel {this.props.location.state.hotelCost} €</li>
+                <li>Activities: {this.props.location.state.activitiesCost} €</li>
               </ul>
 
             </div>
             <div className='booking-page-under-list'>
               <div>A GREAT WEEKEND</div>
-              <div>Total cost 175 €</div>
+              <div>Total cost {this.props.location.state.totalcost} €</div>
             </div>
             <div className='button'>CONFIRM BOOKING</div>
           </div>
         </div>
       </div>
     )
+  } else {
+    return (
+      <div>
+        loading
+      </div>
+    )
+
+  }
   }
 
 }

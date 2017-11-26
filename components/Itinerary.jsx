@@ -172,6 +172,9 @@ class Itinerary extends React.Component {
     }
   }
    render() {
+     if (this.state.venues) {
+
+
      let newVenueArray = this.state.data.venues.slice()
       newVenueArray = newVenueArray.splice(1,14)
       return (
@@ -200,6 +203,11 @@ class Itinerary extends React.Component {
            />
          </div>
       );
+    } else {
+      return (
+        <div>loading</div>
+      )
+    }
    }
 }
 export default Itinerary;

@@ -70,7 +70,7 @@ class StartPage extends React.Component {
       let newObject = {
         dataFromStartPage: dataFromVlad
       }
-
+      console.log(dataFromVlad.data, 'printed datas');
       this.props.history.push('/showme', {dataFromStartPage: dataFromVlad.data})
 
     })

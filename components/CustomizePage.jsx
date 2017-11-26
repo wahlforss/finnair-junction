@@ -170,7 +170,7 @@ class CustomizePage extends React.Component {
                    <li>Activities {this.state.hotelCost + this.state.activitiesCost} €</li>
                    <li className='budget-total'>Total Cost {this.state.totalcost} €</li>
                  </ul>
-                 <Link to={'/bookit'}><div className='button'>Book Now</div></Link>
+                 <Link to={{pathname: '/bookit', state: {data: this.state.data, totalcost: this.state.totalcost, hotelCost: this.state.hotelCost, activitiesCost: this.state.activitiesCost}}}><div className='button'>Book Now</div></Link>
                  <Link to={'/showme'}><div className='button'>Go back</div></Link>
                </div>
              </div>
