@@ -1,0 +1,432 @@
+{
+  "city": "Copenhagen", 
+  "venues": [
+    [
+      {
+        "name": "La Petanque", 
+        "rating": 8.5, 
+        "stuff": "cr\u00eaperie galettes crepes charcuteri "
+      }, 
+      {
+        "name": "Le Petit", 
+        "rating": 8.3, 
+        "stuff": "steak sandwich selected wine glasses of champagne "
+      }, 
+      {
+        "name": "Skt. Petri", 
+        "rating": 8.1, 
+        "stuff": "conference event first hotels worn down minimalistic "
+      }
+    ], 
+    [
+      {
+        "name": "Wood Wood", 
+        "rating": 8.6, 
+        "stuff": "sneakers "
+      }
+    ], 
+    [
+      {
+        "name": "Rex Mundi Tattoo", 
+        "rating": 0.0, 
+        "stuff": "tatov\u00f8r super god "
+      }, 
+      {
+        "name": "Stigma Tattoo Copenhagen", 
+        "rating": 0.0, 
+        "stuff": "Stigma Tattoo Copenhagen is located in the heart of N\u00f8rrebro in Birkegade, a 10 minutes walk from N\u00f8rreport Station and right by Sankt Hans Torv."
+      }
+    ], 
+    [
+      {
+        "name": "Copenhagen Street Food", 
+        "rating": 8.9, 
+        "stuff": "street food market food from all over good vibes "
+      }, 
+      {
+        "name": "Holberg no. 19", 
+        "rating": 8.6, 
+        "stuff": "beer hand selected beer hand selected wine wine nyhavn tuna melt cozy caf\u00e9 A Southern European-style caf\u00e9. An easy mix of regulars and visitors with a smart wine list, & hand-picked tap beers."
+      }, 
+      {
+        "name": "No. 11 Caf\u00e9", 
+        "rating": 8.3, 
+        "stuff": "iced mocha gluten free bread "
+      }
+    ], 
+    [
+      {
+        "name": "Holberg no. 19", 
+        "rating": 8.6, 
+        "stuff": "beer hand selected beer hand selected wine wine nyhavn tuna melt cozy caf\u00e9 A Southern European-style caf\u00e9. An easy mix of regulars and visitors with a smart wine list, & hand-picked tap beers."
+      }, 
+      {
+        "name": "Kaffebar No13", 
+        "rating": 7.7, 
+        "stuff": "bun with cheese cortados "
+      }, 
+      {
+        "name": "No 95 en Kaffebar", 
+        "rating": 6.9, 
+        "stuff": "enkaffebar amager kaffe "
+      }
+    ], 
+    [
+      {
+        "name": "AC Hotel Bella Sky Copenhagen", 
+        "rating": 8.7, 
+        "stuff": "restaurant sky bar great sky bar sky bar design hotel With its unique architecture and design profile, AC Hotel by Marriott Bella Sky Copenhagen is one of the most aesthetic hotels in the North and offers you a luxurious stay in Copenhagen close to both the city centre and the airport..."
+      }, 
+      {
+        "name": "Sky Bar", 
+        "rating": 8.0, 
+        "stuff": "piano view danish "
+      }, 
+      {
+        "name": "Bella Sky Fitness Center", 
+        "rating": 7.5, 
+        "stuff": "Fitness centret er udstyret med high tech tr\u00e6ningsmaskiner fra Technogym. Der er bl.a. Kinesis Circuit maskiner, som bruges til cirkeltr\u00e6ning, og har mere end 250 tr\u00e6nings\u00f8velser at v\u00e6lge i mellem. Ved samtlige maskiner er der sk\u00e6rme, s\u00e5 du kan se TV"
+      }
+    ], 
+    [
+      {
+        "name": "Scandic Copenhagen", 
+        "rating": 6.0, 
+        "stuff": "napa restaurant new renovated rooms scandinavian "
+      }, 
+      {
+        "name": "Ristorante RetroGusto", 
+        "rating": 0.0, 
+        "stuff": "kan godt v\u00e6re betjening meget "
+      }, 
+      {
+        "name": "Paperchase", 
+        "rating": 0.0, 
+        "stuff": "Paperchase is the UK\u2019s undisputed leader in innovative, design-led stationery, cards and gift-wrap."
+      }
+    ], 
+    [
+      {
+        "name": "Caf\u00e9 Two O Two", 
+        "rating": 6.0, 
+        "stuff": "bacon "
+      }, 
+      {
+        "name": "We Love People", 
+        "rating": 0.0, 
+        "stuff": "advertising agency "
+      }, 
+      {
+        "name": "MAN Diesel & Turbo", 
+        "rating": 0.0, 
+        "stuff": "Welcome to MAN Diesel & Turbo Copenhagen!"
+      }
+    ], 
+    [
+      {
+        "name": "Kingfish Dive & Travel", 
+        "rating": 7.2, 
+        "stuff": "diving padi scuba Dykkerforretning med stort udvalg af dykkerudstyr og rejsebureau med dykkerrejser til hele verden."
+      }, 
+      {
+        "name": "Studio Travel", 
+        "rating": 0.0, 
+        "stuff": "Best vintage store in North Europe"
+      }, 
+      {
+        "name": "Albatros Travel", 
+        "rating": 0.0, 
+        "stuff": "toscana "
+      }
+    ], 
+    [
+      {
+        "name": "Pancake bike", 
+        "rating": 0.0, 
+        "stuff": " banana  caramel  chocolate  corn  delicious food  honey  nutella  pancake  strawberry food copenhagen pancakes street food "
+      }, 
+      {
+        "name": "Sixt Rent A Car", 
+        "rating": 0.0, 
+        "stuff": "billeje biludlejning car hire car rental hire a car lej en bil leje af bil lejebil rent a car udlejningsbil Billig biludlejning i K\u00f8benhavns centrum. Book online for vores laveste priser.\r\nCheap car rental in the centre of Copenhagen. Book online for our lowest rates."
+      }, 
+      {
+        "name": "Sixt rent a car", 
+        "rating": 0.0, 
+        "stuff": "billeje biludlejning car hire car rental hire a car rent a car Sixt offers car rental for all Hotel Marriott Copenhagen guests. Please book online in advance or contact the hotel concierge."
+      }
+    ], 
+    [
+      {
+        "name": "Hot Buns", 
+        "rating": 6.7, 
+        "stuff": "great burgers paleo burger sweet potato fries "
+      }, 
+      {
+        "name": "Kims Hot-Dog", 
+        "rating": 0.0, 
+        "stuff": "fastfood p\u00f8lsevogn "
+      }
+    ], 
+    [
+      {
+        "name": "SAS Business/Scandinavian Lounge", 
+        "rating": 6.5, 
+        "stuff": "airport airport lounge eurobonus gold sas sas business lounge star alliance star alliance gold star alliance international first class wifi best star alliance lounges business lounges across europe best sas "
+      }, 
+      {
+        "name": "FirstClient Business Hotel", 
+        "rating": 0.0, 
+        "stuff": "business hotel fitness center god kantine konferencesal l\u00e6kre kontorlokaler i k\u00f8benhavn m\u00f8delokaler i k\u00e6lderen "
+      }, 
+      {
+        "name": "Copenhagen Business School", 
+        "rating": 0.0, 
+        "stuff": "business school university nexus first course "
+      }
+    ], 
+    [
+      {
+        "name": "Sr. Group ApS", 
+        "rating": 0.0, 
+        "stuff": "Kan det virkelige betale sig at g\u00f8re det selv?\r\n\r\nVores kunder er detailbutikker over hele landet. De har valgt at bruge os som samarbejdspartner, fordi vi tilbyder en professionel service til en pris der er absolut konkurrencedygtig - ogs\u00e5 i forhold til hvis de selv skulle afholde deres status!"
+      }, 
+      {
+        "name": "Hello Group", 
+        "rating": 0.0, 
+        "stuff": "digital ad agency "
+      }, 
+      {
+        "name": "Power Media Group ApS", 
+        "rating": 0.0, 
+        "stuff": "annoncesalg hosting lokal marketing openadexchange sem strategi seo strategi social media webdesign Social marketing, affiliate marketing, adsales and a lot more."
+      }
+    ], 
+    [
+      {
+        "name": "Sr. Group ApS", 
+        "rating": 0.0, 
+        "stuff": "Kan det virkelige betale sig at g\u00f8re det selv?\r\n\r\nVores kunder er detailbutikker over hele landet. De har valgt at bruge os som samarbejdspartner, fordi vi tilbyder en professionel service til en pris der er absolut konkurrencedygtig - ogs\u00e5 i forhold til hvis de selv skulle afholde deres status!"
+      }, 
+      {
+        "name": "Hello Group", 
+        "rating": 0.0, 
+        "stuff": "digital ad agency "
+      }, 
+      {
+        "name": "Power Media Group ApS", 
+        "rating": 0.0, 
+        "stuff": "annoncesalg hosting lokal marketing openadexchange sem strategi seo strategi social media webdesign Social marketing, affiliate marketing, adsales and a lot more."
+      }
+    ], 
+    [
+      {
+        "name": "We Love People", 
+        "rating": 0.0, 
+        "stuff": "advertising agency "
+      }, 
+      {
+        "name": "Sct. Elisabeth Hospital", 
+        "rating": 0.0, 
+        "stuff": "blodbank hospital "
+      }
+    ], 
+    [
+      {
+        "name": "We Love People", 
+        "rating": 0.0, 
+        "stuff": "advertising agency "
+      }, 
+      {
+        "name": "Strix Television A/S", 
+        "rating": 0.0, 
+        "stuff": "robinson ekspeditionen tv produktion "
+      }, 
+      {
+        "name": "Planet People AB", 
+        "rating": 0.0, 
+        "stuff": " social crm  social media marketing location based marketing services Location based social media agency."
+      }
+    ], 
+    [
+      {
+        "name": "L\u00eaL\u00ea Street Kitchen // City", 
+        "rating": 7.6, 
+        "stuff": "lemonade godt mango lassi "
+      }, 
+      {
+        "name": "Danhostel Copenhagen City", 
+        "rating": 7.4, 
+        "stuff": "great hostel rahat ettik "
+      }, 
+      {
+        "name": "Irma City", 
+        "rating": 6.4, 
+        "stuff": "humus "
+      }
+    ], 
+    [
+      {
+        "name": "Holberg no. 19", 
+        "rating": 8.6, 
+        "stuff": "beer hand selected beer hand selected wine wine nyhavn tuna melt cozy caf\u00e9 A Southern European-style caf\u00e9. An easy mix of regulars and visitors with a smart wine list, & hand-picked tap beers."
+      }, 
+      {
+        "name": "No. 11 Caf\u00e9", 
+        "rating": 8.3, 
+        "stuff": "iced mocha gluten free bread "
+      }, 
+      {
+        "name": "Spise\\Bar no. 20", 
+        "rating": 8.3, 
+        "stuff": "charcuterie plate homemade chips truffle "
+      }
+    ], 
+    [
+      {
+        "name": "Holberg no. 19", 
+        "rating": 8.6, 
+        "stuff": "beer hand selected beer hand selected wine wine nyhavn tuna melt cozy caf\u00e9 A Southern European-style caf\u00e9. An easy mix of regulars and visitors with a smart wine list, & hand-picked tap beers."
+      }, 
+      {
+        "name": "No. 11 Caf\u00e9", 
+        "rating": 8.3, 
+        "stuff": "iced mocha gluten free bread "
+      }, 
+      {
+        "name": "Spise\\Bar no. 20", 
+        "rating": 8.3, 
+        "stuff": "charcuterie plate homemade chips truffle "
+      }
+    ], 
+    [
+      {
+        "name": "Playground Music Scandinavia", 
+        "rating": 0.0, 
+        "stuff": "awesome! "
+      }, 
+      {
+        "name": "We Love People", 
+        "rating": 0.0, 
+        "stuff": "advertising agency "
+      }
+    ], 
+    [
+      {
+        "name": "Bilka One Stop", 
+        "rating": 6.9, 
+        "stuff": "bilka supermarket ikke uden "
+      }, 
+      {
+        "name": "Sushi one", 
+        "rating": 5.7, 
+        "stuff": "sushi K\u00f8benhavns bedste sushi"
+      }, 
+      {
+        "name": "Shawarma Number One", 
+        "rating": 0.0, 
+        "stuff": "shawarma sandwich "
+      }
+    ], 
+    [], 
+    [
+      {
+        "name": "We Love People", 
+        "rating": 0.0, 
+        "stuff": "advertising agency "
+      }, 
+      {
+        "name": "MAN Diesel & Turbo", 
+        "rating": 0.0, 
+        "stuff": "Welcome to MAN Diesel & Turbo Copenhagen!"
+      }
+    ], 
+    [
+      {
+        "name": "Sr. Group ApS", 
+        "rating": 0.0, 
+        "stuff": "Kan det virkelige betale sig at g\u00f8re det selv?\r\n\r\nVores kunder er detailbutikker over hele landet. De har valgt at bruge os som samarbejdspartner, fordi vi tilbyder en professionel service til en pris der er absolut konkurrencedygtig - ogs\u00e5 i forhold til hvis de selv skulle afholde deres status!"
+      }, 
+      {
+        "name": "Hello Group", 
+        "rating": 0.0, 
+        "stuff": "digital ad agency "
+      }, 
+      {
+        "name": "Power Media Group ApS", 
+        "rating": 0.0, 
+        "stuff": "annoncesalg hosting lokal marketing openadexchange sem strategi seo strategi social media webdesign Social marketing, affiliate marketing, adsales and a lot more."
+      }
+    ], 
+    [
+      {
+        "name": "Wood Wood", 
+        "rating": 8.6, 
+        "stuff": "sneakers "
+      }, 
+      {
+        "name": "Holberg no. 19", 
+        "rating": 8.6, 
+        "stuff": "beer hand selected beer hand selected wine wine nyhavn tuna melt cozy caf\u00e9 A Southern European-style caf\u00e9. An easy mix of regulars and visitors with a smart wine list, & hand-picked tap beers."
+      }, 
+      {
+        "name": "No. 11 Caf\u00e9", 
+        "rating": 8.3, 
+        "stuff": "iced mocha gluten free bread "
+      }
+    ], 
+    [
+      {
+        "name": "Sixt Rent A Car", 
+        "rating": 0.0, 
+        "stuff": "billeje biludlejning car hire car rental hire a car lej en bil leje af bil lejebil rent a car udlejningsbil Billig biludlejning i K\u00f8benhavns centrum. Book online for vores laveste priser.\r\nCheap car rental in the centre of Copenhagen. Book online for our lowest rates."
+      }, 
+      {
+        "name": "Sixt rent a car", 
+        "rating": 0.0, 
+        "stuff": "billeje biludlejning car hire car rental hire a car rent a car Sixt offers car rental for all Hotel Marriott Copenhagen guests. Please book online in advance or contact the hotel concierge."
+      }
+    ], 
+    [
+      {
+        "name": "Holberg no. 19", 
+        "rating": 8.6, 
+        "stuff": "beer hand selected beer hand selected wine wine nyhavn tuna melt cozy caf\u00e9 A Southern European-style caf\u00e9. An easy mix of regulars and visitors with a smart wine list, & hand-picked tap beers."
+      }, 
+      {
+        "name": "No. 11 Caf\u00e9", 
+        "rating": 8.3, 
+        "stuff": "iced mocha gluten free bread "
+      }, 
+      {
+        "name": "Spise\\Bar no. 20", 
+        "rating": 8.3, 
+        "stuff": "charcuterie plate homemade chips truffle "
+      }
+    ], 
+    [
+      {
+        "name": "Sleep in Heaven", 
+        "rating": 7.7, 
+        "stuff": "great hostel staff is really Youth Hostel Copenhagen"
+      }
+    ], 
+    [
+      {
+        "name": "La Petanque", 
+        "rating": 8.5, 
+        "stuff": "cr\u00eaperie galettes crepes charcuteri "
+      }, 
+      {
+        "name": "Le Petit", 
+        "rating": 8.3, 
+        "stuff": "steak sandwich selected wine glasses of champagne "
+      }, 
+      {
+        "name": "Skt. Petri", 
+        "rating": 8.1, 
+        "stuff": "conference event first hotels worn down minimalistic "
+      }
+    ]
+  ]
+}

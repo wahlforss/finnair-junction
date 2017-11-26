@@ -1,0 +1,173 @@
+{
+  "city": "Copenhagen",
+  "venues": [
+    {
+      "image": "https://igx.4sqi.net/img/general/2048x2048/omP6H6md88HU3yI5-zM12PHGxFpRms5zkeJDheRgjFw.jpg",
+      "name": "Statens Museum for Kunst - SMK",
+      "price": 4,
+      "rating": 9.1,
+      "stuff": "danish matisse 110dkk "
+    },
+    {
+      "image": "https://igx.4sqi.net/img/general/2048x2048/1988058_U40_GEqPuol15nAPZEOwLbG-V7OMpKGugXo3m9NkU4k.jpg",
+      "name": "No 95 en Kaffebar",
+      "price": 4,
+      "rating": 6.9,
+      "stuff": "enkaffebar amager kaffe "
+    },
+    {
+      "image": "https://igx.4sqi.net/img/general/2048x2048/1916180_Cx2b9MwN_r-EanEzXMEgi8JW_xJjmHthdJVeMO15bg4.jpg",
+      "name": "No. 11 Caf\u00e9",
+      "price": 9,
+      "rating": 8.3,
+      "stuff": "iced mocha gluten free bread "
+    },
+    {
+      "image": "https://igx.4sqi.net/img/general/2048x2048/36196_zGIsjluaR5wiZuL-8H_ZcosGfqsHubIxjf11onxWKds.jpg",
+      "name": "Social Food",
+      "price": 8,
+      "rating": 8.0,
+      "stuff": "green ice cream dipped cone chocolate dipped "
+    },
+    {
+      "image": "https://igx.4sqi.net/img/general/2048x2048/1613573_gku-6ymBMMwhaB4ZMOMhhRnvaU0-Bvtow8eVTQ9whDc.jpg",
+      "name": "Dansk J\u00f8disk Museum",
+      "price": 16,
+      "rating": 7.3,
+      "stuff": "architecture daniel libeskind jews museum, j\u00f8der "
+    },
+    {
+      "image": "https://igx.4sqi.net/img/general/2048x2048/GQMUE2FFLAR4Z1OJUMLM35X4PZNFHBDQONO12PP4CIHP0JAB.jpg",
+      "name": "Thorvaldsens Museum",
+      "price": 16,
+      "rating": 7.5,
+      "stuff": "exhibits The museum houses the works of the world-famous Danish sculptor Bertel Thorvaldsen. Vibrant colours and grand architecture characterize the building. Located at The Castle Island (Slotsholmen) in the heart of Copenhagen the museum is very close to some of the most popular attractions of the city."
+    },
+    {
+      "image": "https://igx.4sqi.net/img/general/2048x2048/21254464_arD4niSl5yipE4KUziVB_dnjdZAMwujoBMUALz2jN8c.jpg",
+      "name": "AC Hotel Bella Sky Copenhagen",
+      "price": 8,
+      "rating": 8.7,
+      "stuff": "restaurant sky bar great sky bar sky bar design hotel With its unique architecture and design profile, AC Hotel by Marriott Bella Sky Copenhagen is one of the most aesthetic hotels in the North and offers you a luxurious stay in Copenhagen close to both the city centre and the airport..."
+    },
+    {
+      "image": "https://igx.4sqi.net/img/general/2048x2048/15030843_U8uyS-yTguRBcTyLPCPcGxL-kRePNZtzyZ0FOjGsjFI.jpg",
+      "name": "La Petanque",
+      "price": 9,
+      "rating": 8.5,
+      "stuff": "cr\u00eaperie galettes crepes charcuteri "
+    },
+    {
+      "image": "https://igx.4sqi.net/img/general/2048x2048/2443470_Mw2LtK9_L9aaqDJorq2j3vHXPg3kEFd_WobSxeMAiQg.jpg",
+      "name": "Carlsberg",
+      "price": 18,
+      "rating": 7.9,
+      "stuff": "the history of carlsberg brewery beer bottle collection history of carlsberg copenhagen card "
+    },
+    {
+      "image": "https://igx.4sqi.net/img/general/2048x2048/212169387_C2-Wh9iB-a9yFzkkMFUuT3RsxV7Rna5lQWhqCNs0Bds.jpg",
+      "name": "Bella Sky Fitness Center",
+      "price": 4,
+      "rating": 7.5,
+      "stuff": "Fitness centret er udstyret med high tech tr\u00e6ningsmaskiner fra Technogym. Der er bl.a. Kinesis Circuit maskiner, som bruges til cirkeltr\u00e6ning, og har mere end 250 tr\u00e6nings\u00f8velser at v\u00e6lge i mellem. Ved samtlige maskiner er der sk\u00e6rme, s\u00e5 du kan se TV"
+    },
+    {
+      "image": "https://igx.4sqi.net/img/general/2048x2048/16080948_lLmFALrWpdWf59dxMPzOZZj27FfKcvtXSz8kuNXVmTU.jpg",
+      "name": "Kingfish Dive & Travel",
+      "price": 10,
+      "rating": 7.2,
+      "stuff": "diving padi scuba Dykkerforretning med stort udvalg af dykkerudstyr og rejsebureau med dykkerrejser til hele verden."
+    },
+    {
+      "image": "https://igx.4sqi.net/img/general/2048x2048/gtxOA2tBS4w1tYITP_riN3t-ZTTMvcUeHXET3eHfGng.jpg",
+      "name": "Bilka One Stop",
+      "price": 15,
+      "rating": 6.9,
+      "stuff": "bilka supermarket ikke uden "
+    },
+    {
+      "image": "https://igx.4sqi.net/img/general/2048x2048/120781612_AYA9b-pUICUataZJ6jZlPxxl793AsccbG02p5Ex__-k.jpg",
+      "name": "Caf\u00e9 Two O Two",
+      "price": 5,
+      "rating": 6.0,
+      "stuff": "bacon "
+    },
+    {
+      "image": "https://igx.4sqi.net/img/general/2048x2048/8044349_zfVda1V7ZxxA8VyOuPdwPD3l3UB5UYMv38NWIvkZoqY.jpg",
+      "name": "Wood Wood",
+      "price": 4,
+      "rating": 8.6,
+      "stuff": "sneakers "
+    },
+    {
+      "image": "https://igx.4sqi.net/img/general/2048x2048/8VHRwl0uhCurJgLH1PZp963tRvO1JKKiHfZelzdeQIs.jpg",
+      "name": "Geologisk Museum",
+      "price": 16,
+      "rating": 7.1,
+      "stuff": "meteorites stones "
+    },
+    {
+      "image": "https://igx.4sqi.net/img/general/2048x2048/10171798__WkUJzyheSHpRCJSpYowy0gyUze9rIdDVTK2OSmcvJs.jpg",
+      "name": "Copenhagen Street Food",
+      "price": 19,
+      "rating": 8.9,
+      "stuff": "street food market food from all over good vibes "
+    },
+    {
+      "image": "https://igx.4sqi.net/img/general/2048x2048/4979309_YKuoiwW186pIsWcKyjy6xUEhPU7BVUAG-0p244VgcMA.jpg",
+      "name": "Sky Bar",
+      "price": 32,
+      "rating": 8.0,
+      "stuff": "piano view danish "
+    },
+    {
+      "image": "https://igx.4sqi.net/img/general/2048x2048/49230588_iOXW1QK1pSDcPHz4KiRoYxP7Wi5WGbHJfQC8bwTEs9w.jpg",
+      "name": "Skt. Petri",
+      "price": 3,
+      "rating": 8.1,
+      "stuff": "conference event first hotels worn down minimalistic "
+    },
+    {
+      "image": "https://igx.4sqi.net/img/general/2048x2048/17800784_DH_JIqQ5e_ppbXoaFB25pQ4zgCGFGc0H_6XXs2ZSzgk.jpg",
+      "name": "Le Petit",
+      "price": 18,
+      "rating": 8.3,
+      "stuff": "steak sandwich selected wine glasses of champagne "
+    },
+    {
+      "image": "https://igx.4sqi.net/img/general/2048x2048/LD1SeXw7OspINZick1arCHoqJ4xDYug36yfjULbRkGQ.jpg",
+      "name": "Scandic Copenhagen",
+      "price": 15,
+      "rating": 6.0,
+      "stuff": "napa restaurant new renovated rooms scandinavian "
+    },
+    {
+      "image": "https://igx.4sqi.net/img/general/2048x2048/FvjMpwRBzxCDeZrx595qbkhkqLnL_IjPAeAhrfzJnsg.jpg",
+      "name": "Holberg no. 19",
+      "price": 8,
+      "rating": 8.6,
+      "stuff": "beer hand selected beer hand selected wine wine nyhavn tuna melt cozy caf\u00e9 A Southern European-style caf\u00e9. An easy mix of regulars and visitors with a smart wine list, & hand-picked tap beers."
+    },
+    {
+      "image": "https://igx.4sqi.net/img/general/2048x2048/90550960_-FohTYzNv3FqUgl7Rlv0RmJraKoFNS4u6Wn1T329QIQ.jpg",
+      "name": "Kaffebar No13",
+      "price": 7,
+      "rating": 7.7,
+      "stuff": "bun with cheese cortados "
+    },
+    {
+      "image": "https://igx.4sqi.net/img/general/2048x2048/368560862_daUMvToBN1eQlr5C86mHNJUn1f1pBBklMxK67mfhYsc.jpg",
+      "name": "no.2",
+      "price": 18,
+      "rating": 8.0,
+      "stuff": "new nordic done "
+    },
+    {
+      "image": "https://igx.4sqi.net/img/general/2048x2048/lUPunuUv1vp52OWTRF8KxRjOrI1QFDT7905-rmXg4JA.jpg",
+      "name": "Zoologisk Museum",
+      "price": 16,
+      "rating": 7.5,
+      "stuff": "for b\u00f8rn sp\u00e6ndende er der "
+    }
+  ]
+}
