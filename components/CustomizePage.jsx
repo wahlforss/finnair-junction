@@ -56,7 +56,7 @@ class CustomizePage extends React.Component {
       newArrayFromTotalActivities.splice(boxToBeCheckedIndex, 1)
 
     }
-    
+
     this.setState({
       shownData: newArrayFromTotalActivities
     })
@@ -81,28 +81,6 @@ class CustomizePage extends React.Component {
     })
   }
 
-  renderChosenActivitiesOld() {
-    return (
-      <ul>
-        {this.state.totalActivities.map((actObj,i) => {
-          if(actObj.checked) {
-            return (
-              <li>
-                <CustomizeBlock
-                  id={actObj.id}
-                  title={actObj.title}
-                  checked={actObj.checked}
-                  price={actObj.price}
-                  backgroundImage={actObj.backgroundImage}
-                  checkBox={this.checkBox.bind(this)}
-                />
-              </li>
-            )
-          }
-        })}
-      </ul>
-    )
-  }
 
   renderChosenActivities() {
     if (this.state.shownData) {

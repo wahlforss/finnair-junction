@@ -26,9 +26,9 @@ class BookingsPage extends React.Component {
           <div>
             <div className='booking-page-list'>
               <ul className='booking-page-fun-list'>
-                <li>Meet Putin!</li>
-                <li>Great Sushi</li>
-                <li>Largest building in the world</li>
+                <li>Meet wonderful people</li>
+                <li>See magical places</li>
+                <li>Eat great food</li>
               </ul>
               <ul className='booking-page-costs-list'>
                 <li>
