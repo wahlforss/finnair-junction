@@ -25,7 +25,16 @@ h1 {
   font-size: 100px;
   margin: 0;
 }
-
+.finnair {
+  background-image: url('https://res.cloudinary.com/wego/c_fit,h_270,f_auto,fl_lossy,q_80/v20171007/flights/airlines_rectangular/AY.png');
+  position: absolute;
+bottom: 0;
+background-repeat: no-repeat;
+background-size: contain;
+height: 50px;
+width: 200px;
+left: 20px;
+}
 .logo {
   background-image: url('https://files.slack.com/files-pri/T7KKUH9PT-F85FR2R2N/fackinglogo.png');
   width: 1000px;

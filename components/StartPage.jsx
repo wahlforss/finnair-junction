@@ -134,9 +134,9 @@ class StartPage extends React.Component {
             }
             return (
               <div className='start-page-wrapper'>
+                <div className='finnair' ></div>
                 <div className='start-page-wrapper-hoho'>
                   <div className='logo'></div>
-                  <h1>FindAir</h1>
                   <h2>One Click Journey</h2>
                   {this.renderDatePicker()}
 
