@@ -25,7 +25,11 @@ class CustomizePage extends React.Component {
       totalActivities,
       budgetRestaurant: 100,
       budgetActivities: 100,
-      flightCost: 100
+      totalcost: 100,
+      flightCost: 10,
+      activitiesCost: 10,
+      hotelCost: 10
+
     }
   }
 
@@ -34,8 +38,13 @@ class CustomizePage extends React.Component {
     this.setState({
       budgetTotal: this.state.budgetRestaurant + this.state.budgetActivities + this.state.flightCost,
       data: this.stateFromLastSite.data,
-      shownData: this.stateFromLastSite.showndata
+      shownData: this.stateFromLastSite.showndata,
+      totalcost: this.stateFromLastSite.totalcost,
+      flightCost: this.stateFromLastSite.flightCost,
+      activitiesCost: this.stateFromLastSite.activitiesCost,
+      hotelCost: this.stateFromLastSite.hotelCost
     })
+
     window.scrollTo(0, 0);
     document.styleSheets[0].addRule('body',`overflow: hidden`);
   }
@@ -158,8 +167,8 @@ class CustomizePage extends React.Component {
                <div className='budget-column'>
                  <ul>
                    <li>Flights cost {this.state.flightCost} €</li>
-                   <li>Activities {this.state.budgetActivities} €</li>
-                   <li className='budget-total'>Total Cost {this.state.budgetTotal} €</li>
+                   <li>Activities {this.state.hotelCost + this.state.activitiesCost} €</li>
+                   <li className='budget-total'>Total Cost {this.state.totalcost} €</li>
                  </ul>
                  <Link to={'/bookit'}><div className='button'>Book Now</div></Link>
                  <Link to={'/showme'}><div className='button'>Go back</div></Link>

@@ -9,13 +9,13 @@ class Itinerary extends React.Component {
 
   }
   renderSmallWrapper() {
-    if (this.props.bookflights) {
+    if (this.props.bookflights) {      
       return (
         <div>
           <div className='itinerary-block-time'>{this.props.title}</div>
           <div className='itinerary-block-buttons'>
             <Link to={'/bookit'}><div className='button'>Book Now</div></Link>
-            <Link to={{pathname: '/customize', state: {data: this.props.data, showndata: this.props.showndata}}} ><div className='button'>Change itinerary</div></Link>
+            <Link to={{pathname: '/customize', state: {data: this.props.data, showndata: this.props.showndata, totalcost: this.props.totalcost, flightCost: this.props.flightCost,activitiesCost: this.props.activitiesCost, hotelCost: this.props.hotelCost }}} ><div className='button'>Change itinerary</div></Link>
           </div>
         </div>
           )

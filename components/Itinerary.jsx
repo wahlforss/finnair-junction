@@ -44,6 +44,7 @@ class Itinerary extends React.Component {
   }
 
   renderDay1() {
+      if (this.state.venues) {
     let venuesForDay1 =  this.state.venues.slice();
     venuesForDay1 = venuesForDay1.splice(1,7)
     let totalcostDay1 = 0
@@ -98,6 +99,7 @@ class Itinerary extends React.Component {
       </div>
     )
   }
+  }
 
   calccostday2() {
     let venuesForDay1 =  this.state.venues.slice();
@@ -111,6 +113,9 @@ class Itinerary extends React.Component {
     })
   }
   renderDay2() {
+    if (this.state.venues) {
+
+
     let venuesForDay1 =  this.state.venues.slice();
     venuesForDay1 = venuesForDay1.splice(8,7)
     let totalcostDay2 = 0
@@ -164,6 +169,7 @@ class Itinerary extends React.Component {
         />
       </div>
     )
+    }
   }
    render() {
      let newVenueArray = this.state.data.venues.slice()
@@ -185,6 +191,10 @@ class Itinerary extends React.Component {
              backgroundImage={this.state.data.venues[12].image}
              title={`WOHO ${this.state.data.city} seems cool!`}
              bookflights={true}
+             activitiesCost={this.state.totalcostDay1}
+             hotelCost={this.state.totalcostDay2}
+             flightCost={this.state.data.flight_price}
+             totalcost={this.state.totalcostDay1 + this.state.totalcostDay2 + this.state.data.flight_price}
              data={this.state.data}
              showndata={newVenueArray}
            />
