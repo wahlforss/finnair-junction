@@ -42,15 +42,25 @@ class CustomizePage extends React.Component {
 
   checkBox(id) {
     let newArrayFromTotalActivities = this.state.shownData.slice()
+    let newArrayFromTotalDATA = this.state.shownData.slice()
     const boxToBeCheckedIndex = _.findIndex(newArrayFromTotalActivities, (actObj) => {
       return actObj.id === id
     })
-    const boxToBeCheckedObject = newArrayFromTotalActivities.splice(boxToBeCheckedIndex, 1)[0]
-    boxToBeCheckedObject['checked'] = !boxToBeCheckedObject.checked
-    newArrayFromTotalActivities.unshift(boxToBeCheckedObject)
-    this.setState({
-      data: newArrayFromTotalActivities
+    let boxToBeCheckedObject = _.find(newArrayFromTotalDATA, (actObj) => {
+      return actObj.id === id
     })
+    if (boxToBeCheckedIndex === -1) {
+      newArrayFromTotalActivities.unshift(boxToBeCheckedObject)
+
+    } else {
+      newArrayFromTotalActivities.splice(boxToBeCheckedIndex, 1)
+
+    }
+    
+    this.setState({
+      shownData: newArrayFromTotalActivities
+    })
+
   }
 
   componentDidUpdate(prevProps, prevState) {
