@@ -1,0 +1,14 @@
+@import url("./FAQPage.css");
+@import url("./Footer.css");
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}

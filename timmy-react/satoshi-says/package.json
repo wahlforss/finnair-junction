@@ -1,0 +1,31 @@
+{
+  "name": "satoshi-says",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack-cli": "^2.0.10"
+  },
+  "dependencies": {
+    "bn.js": "^4.11.8",
+    "css-loader": "^0.28.10",
+    "ethjs": "^0.3.3",
+    "html-webpack-plugin": "^3.0.4",
+    "path": "^0.12.7",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "style-loader": "^0.20.2",
+    "url-loader": "^0.6.2",
+    "webpack": "^4.0.1",
+    "webpack-dev-server": "^3.1.0"
+  }
+}
